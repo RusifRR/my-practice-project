@@ -1,0 +1,148 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi', sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1260px;
+}
+
+
+.header {
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Integral CF', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.menu-list {
+    display: flex;
+    margin: 0;
+}
+
+.menu-list__left {
+    gap: 24px;
+    font-size: 16px;
+}
+
+.search {
+    width: 577px;
+    height: 48px;
+    background-color: #F0F0F0; 
+    display: flex;
+    border-radius: 62px;
+    gap: 12px;
+}
+
+.search-btn {
+    padding: 8px 12px 12px 16px;
+}
+
+.search input {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    color: #000;
+}
+
+.search input:hover {
+    outline: none;
+    border: none;
+}
+
+.search input:focus {
+    outline: none;
+    border: none;
+}
+
+.menu-list__right {
+    display: flex;
+    gap: 14px;
+}
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 295px;
+    background-color: #fff;
+    border: 0;
+    color: #000;
+    border-radius: 0;
+}
+
+.card-img {
+    outline: 0;
+    margin-bottom: 16px;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.card-price {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btn-more {
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 80px;
+    border-radius: 62px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 220px;
+    align-self: center;
+    transition: box-shadow 0.5s ease;
+}
+
+.btn-more:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
